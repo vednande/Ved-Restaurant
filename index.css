@@ -491,6 +491,9 @@ left: 21.5vw; */
     text-align: center;
     font-size: 16px;
 }
+.heading h6{
+    font-size: 3rem;
+}
 .icons{
     display: flex;
     align-items: center;
@@ -530,7 +533,13 @@ left: 21.5vw; */
 
 
 
-/* Media Query */
+/* Media Query */ 
+
+@media (min-width: 768px) and (max-width: 1243px) {
+    .starter-one, .starter-two, .starter-three, .starter-four, .starter-five, .starter-six{
+        margin: 1rem 2rem;
+    }
+}
 
 @media (min-width: 872px) and (max-width: 1320px) {
     .food-images{
@@ -546,13 +555,216 @@ left: 21.5vw; */
         width: 320px; 
         height: 230px;
     }
+    .near-you-food{
+        justify-content: center;
+    }
+    .food1, .food2, .food3, .food4, .food5, .food6{
+        margin: 1rem 1rem;
+    } 
 }
 
 @media (min-width: 600px) and (max-width: 872px){
     /* .food-images img{
         display: none;
     } */
+    .intro {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0rem 2rem;
+        margin: -2rem 1rem;
+    }
+    .navbar {
+        margin-bottom: 0vh;
+    }
+    nav{
+        display: block;
+    }
+    .heading-venan{
+        text-align: center;
+    }
+    .search-engine{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .search-engine {
+        /* float: right; */
+        float: none;
+    }
+    .heading-venan, .navbar-list, .search-engine{
+        margin: 1rem 0;
+    }
+    .navbar-list ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .starter {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 15px 0px;
+        padding: 20px 0px;
+    }
     #chole{
         display: none;
+    }
+    .starter-one, .starter-two, .starter-three, .starter-four, .starter-five, .starter-six{
+        margin: 1rem 2rem;
+    }
+    .food1, .food2, .food3, .food4, .food5, .food6{
+        margin: 1rem .5rem;
+    }
+}   
+
+@media (min-width: 600px) and (max-width: 800px){
+    .greeting {
+        width: 100%;
+        background-color: rgb(226, 218, 218);
+        background-color: black;
+        color: white;
+        padding: 20px 20px;
+    }
+    nav{
+        height: 13vh;
+    }
+    .food-images{
+        width: 100%;
+    }
+    #chole{
+        display: block;
+    }
+    #paavbhaji , #chole{ 
+        line-height: 5rem;
+        /* width: 200px;
+        height: 200px; */
+        width: 30vw; 
+        height: 20vh;
+        object-fit: fill;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 676px){
+    .search-engine{
+        display: flex;
+        justify-content: center;
+    }
+    nav{
+        line-height: 5rem;
+    }
+}
+
+@media (min-width: 520px) and (max-width: 600px){
+
+    #section-one{
+        height: 114vh;
+
+    }
+    .food-images{
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    .navbar {
+        padding: 10px 10px;
+    }
+    nav{
+        margin-bottom: 0;
+    }
+    .form-grid{
+        display: block;
+    }
+    .form-center{
+        line-height: 2rem;
+    }
+    .near-you h1,p{
+        text-align: center;
+    }
+    /* #chole{
+        display: none;
+        visibility: hidden;
+    } */
+    .greeting{
+        width: 100%;
+    }
+    .food-images img {
+        width: 30vw;
+        height: 20vh;
+        object-fit: fill;
+    }
+    .starter-one, .starter-two, .starter-three, .starter-four, .starter-five, .starter-six{
+        margin: 1rem 2rem;
+    }
+    .food1, .food2, .food3, .food4, .food5, .food6{
+        margin: 1rem .5rem;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 520px){
+
+    #section-one{
+        height: 128vh;
+
+    }
+    .food-images{
+        padding: 0;
+    }
+    .navbar-list ul {
+        list-style-type: none;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: auto auto;
+    }
+    .slogan {
+        text-align: center;
+        margin: 1rem -4rem;
+    }
+    .heading-venan{
+        margin-bottom: 1rem;
+    }
+    .navbar-list{ 
+        margin: 1rem 0;
+    }
+    .food-images{
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    .navbar {
+        padding: 10px 10px;
+    }
+    nav{
+        margin-bottom: 0;
+    }
+    .form-grid{
+        display: block;
+    }
+    .form-center{
+        line-height: 2rem;
+    }
+    .near-you h1,p{
+        text-align: center;
+    }
+    /* #chole{
+        display: none;
+        visibility: hidden;
+    } */
+    .greeting{
+        width: 100%;
+    }
+    .food-images img {
+        width: 30vw;
+        height: 20vh;
+        object-fit: fill;
+    } 
+    .starter-one, .starter-two, .starter-three, .starter-four, .starter-five, .starter-six{
+        margin: 1rem 2rem;
+    }
+    .food1, .food2, .food3, .food4, .food5, .food6{
+        margin: 1rem .5rem;
     }
 }
