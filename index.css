@@ -52,11 +52,12 @@ nav{
     font-size: 20px;
     font-family: sans-serif;
     color: white;
+    transition-duration: 0.5s;
     /* box-shadow: .5px .5px 20px 3px grey; */
 }
 .navbar-list a:hover{
     box-shadow: .5px .5px 20px 3px grey;
-    transition-duration: 0.5s;
+    // transition-duration: 0.5s;
     /* text-decoration: underline; */
 }
 /* .heading , .navbar-list{
@@ -74,12 +75,13 @@ nav{
 .order-now{
     font-size: 16px;
     border-radius: 20px;
+    transition: .2s;
 }
 .order-now:hover{
     box-shadow: .5px .5px 20px 3px orange;
     background-color: white;
     color: black;
-    transition: .2s;
+   // transition: .2s;
 }
 .intro{
     display: flex;
@@ -178,6 +180,7 @@ nav{
     /* margin: 10px; */
     padding: 20px 25px;
     height: 25vh;
+    transition: .5s;
 }
 .item1 img{
     border-radius: 50%;
@@ -189,42 +192,42 @@ nav{
     background-color: black;
     color: white;
     box-shadow: .3rem -.3rem .5rem .2rem grey;
-    transition: .5s;
+    //transition: .5s;
     cursor: pointer;
 }
 .item2:hover{
     background-color: black;
     color: white;
     box-shadow: .3rem -.3rem .5rem .2rem grey;
-    transition: .5s;
+    //transition: .5s;
     cursor: pointer;
 }
 .item3:hover{
     background-color: black;
     color: white;
     box-shadow: .3rem -.3rem .5rem .2rem grey;
-    transition: .5s;
+    //transition: .5s;
     cursor: pointer;
 }
 .item4:hover{
     background-color: black;
     color: white;
     box-shadow: .3rem -.3rem .5rem .2rem grey;
-    transition: .5s;
+    //transition: .5s;
     cursor: pointer;
 }
 .item5:hover{
     background-color: black;
     color: white;
     box-shadow: .3rem -.3rem .5rem .2rem grey;
-    transition: .5s;
+    //transition: .5s;
     cursor: pointer;
 }
 .item6:hover{
     background-color: black;
     color: white;
     box-shadow: .3rem -.3rem .5rem .2rem grey;
-    transition: .5s;
+    //transition: .5s;
     cursor: pointer;
 }
 .item2 img{
@@ -290,6 +293,7 @@ nav{
     display: block;
     border-radius: 20px;
     text-align: center;
+    transition: .6s ;
 }
 .food-image1 img{
     object-fit: cover;
@@ -298,42 +302,42 @@ nav{
     border-radius: 50%;
 }
 .food1:hover{
-    transition: .6s ;
+    //transition: .6s ;
     cursor: pointer;
     background-color: rgb(180, 180, 180);
     box-shadow: .5px .5px 20px 3px rgb(180, 180, 180);
     color: black;
 }
 .food2:hover{
-    transition: .6s ;
+    //transition: .6s ;
     cursor: pointer;
     background-color: rgb(165, 42, 42,0.2);
     box-shadow: .5px .5px 20px 3px rgb(165, 42, 42,0.2);
     color: black;
 }
 .food3:hover{
-    transition: .6s ;
+    //transition: .6s ;
     cursor: pointer;
     background-color: rgba(255, 166, 0, 0.582);
     box-shadow: .5px .5px 20px 3px rgba(255, 166, 0, 0.582);
     color: black;
 }
 .food4:hover{
-    transition: .6s ;
+    //transition: .6s ;
     cursor: pointer;
     background-color: rgba(239, 234, 196, 0.76) ;
     box-shadow: .5px .5px 20px 3px rgba(239, 234, 196, 0.534);
     color: black;
 }
 .food5:hover{
-    transition: .6s ;
+    //transition: .6s ;
     cursor: pointer;
     background-color: #bf998e85;
     box-shadow: .5px .5px 20px 3px #bf998e85; 
     color: black;
 }
 .food6:hover{
-    transition: .6s ;
+    //transition: .6s ;
     cursor: pointer;
     background-color: #d8aa37;
     box-shadow: .5px .5px 20px 3px #d8aa37;
@@ -380,13 +384,14 @@ nav{
     box-shadow: none;
     background-color: black;
     color: white;
+    transition: .5s;
 }
 .food-order:hover{
     cursor: pointer;
     background-color: orange;
     color: black;
     font-size: 16px;
-    transition: .5s;
+    //transition: .5s;
 }
 .food-text{
     line-height: 25px;
@@ -469,6 +474,7 @@ left: 21.5vw; */
     font-weight: bold;
     font-size: 20px;
     transition-property: background-color , border;
+    transition-duration: .4s;
 }
 .register-here-center a{
     text-decoration: none;
@@ -477,7 +483,7 @@ left: 21.5vw; */
 .register-here-center:hover{
     background-color: antiquewhite;
     cursor: pointer;
-    transition-duration: .4s;
+    //transition-duration: .4s;
     border: 2px solid black;
 }
 
